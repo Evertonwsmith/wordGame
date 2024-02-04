@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "428749353952",
+    "firebase_url": "https://uix2024-dcdfe-default-rtdb.firebaseio.com",
+    "project_id": "uix2024-dcdfe",
+    "storage_bucket": "uix2024-dcdfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428749353952:android:a7759705d5239977753185",
+        "android_client_info": {
+          "package_name": "com.example.uxexplore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd8w7wB6fRpbDf63Zjpu2gNH_hUUW-QBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

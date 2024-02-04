@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyA0pH9asOhWFn1o-TJbSTILReU4KNIPs_s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>428749353952</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.uxexplore.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>uix2024-dcdfe</string>
+	<key>STORAGE_BUCKET</key>
+	<string>uix2024-dcdfe.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:428749353952:ios:5c32ca7d81f0cbcd753185</string>
+	<key>DATABASE_URL</key>
+	<string>https://uix2024-dcdfe-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
