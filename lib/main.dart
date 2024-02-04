@@ -37,8 +37,8 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.blue)
               .copyWith(background: Colors.black),
         ),
-        // home: login());
-        home: landing(name: 'Everton'));
+        home: login());
+        // home: landing(name: 'Everton'));
     // home: game(gameModel: empt, docName: 'Everton379', user: 'Everton'));
   }
 }
