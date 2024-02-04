@@ -38,19 +38,5 @@ class MyApp extends StatelessWidget {
               .copyWith(background: Colors.black),
         ),
         home: login());
-        // home: landing(name: 'Everton'));
-    // home: game(gameModel: empt, docName: 'Everton379', user: 'Everton'));
   }
 }
-
-challengeModel empt = challengeModel(
-  length: 4,
-  guesses: 5,
-  status: 'active',
-  date: '2024-01-01,',
-  state: 'inactive%fart%dull%daft%////%////',
-  challenger: 'Everton',
-  challenged: ['Everton'],
-  secretWord: 'daft',
-  id: -1,
-);
