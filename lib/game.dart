@@ -62,6 +62,7 @@ class _gameState extends State<game> {
       if (tet.contains(widget.gameModel.secretWord)) {
         win = true;
       }
+
       gameDone = true;
     }
     print('Current Truth: ' +
@@ -269,6 +270,12 @@ class _gameState extends State<game> {
 
   Widget combineThings(BuildContext context, List<String> states,
       List<TextEditingController> textControllers) {
+    if(!states[states.length - 1].contains('/')){
+      setState(() {
+        print('print--------------------------------------------------------');
+        gameDone = true;
+      });
+    }
     print("This print: " + states.toString());
     int entered = states.length - 1;
     List<Widget> list = [];
@@ -340,15 +347,19 @@ class _gameState extends State<game> {
         challengeModel cM = widget.gameModel;
         List<String> ogStates = widget.gameModel.state.split('%');
         String temp = ogStates[0];
-        if (gameDone || win) {
+        if (gameDone) {
           temp = 'inactive';
         }
         for (String state in newStates) {
           if (state == widget.gameModel.secretWord) {
+            print('winning state');
             gameDone = true;
             win = true;
             addPoints(widget.user, 100);
+            temp = 'inactive';
+
           }
+
           temp = temp + '%' + state;
         }
         cM.state = temp;

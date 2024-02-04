@@ -29,7 +29,7 @@ class _profileState extends State<profile> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Settings"),
+        title: Text("Profile"),
         centerTitle: true,
         backgroundColor: bgColor,
       ),
@@ -53,20 +53,6 @@ class _profileState extends State<profile> {
                       fontSize: 20,
                     ),
                   ),
-                  Text(
-                    'Wins: $wins',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20,
-                    ),
-                  ),
-                  Text(
-                    'Losses: $losses',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20,
-                    ),
-                  ),
                 ],
               ),
       ),
@@ -84,9 +70,7 @@ class _profileState extends State<profile> {
     if (loadedData != null) {
       setState(() {
         username = user;
-        points = loadedData['points'] ?? 0;
-        wins = loadedData['wins'] ?? 0;
-        losses = loadedData['losses'] ?? 0;
+        points = loadedData['score'] ?? 0;
       });
     }
 
