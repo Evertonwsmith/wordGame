@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "uix2024-dcdfe"
-  }
+    "default": "uix2024-dcdfe",
+    "alias": "uix2024-dcdfe"
+  },
+  "targets": {},
+  "etags": {}
 }
